@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header ">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div  -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center ">
+                        <figure>
+                            <img src="./images/about1.webp" alt="rohit" height="400px" width="400px" class="img-fluid"
+                                title="Rohit">
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to Weather App</p>
+                        <h1 class="abouth">I Am A <span class="text_clr">MERN Stack Developer</span> And A Freelancer </h1>
+                        <a href="#"> <button>About Me</button> </a>
+
+                        {{!-- SocialMedia Links  --}}
+                <div class="flex-center">
+                    <a href="https://www.linkedin.com/in/rohit-mishra-a57998192/" target="_rohit"><i class="fa fa-linkedin fa-4x icon-3d"></i></a>
+                    <a href="https://github.com/rhtmishra" target="_rohit"><i class="fa fa-github fa-4x icon-3d"></i></a>
+                    <a href="https://www.hackerrank.com/rhtmishra1069" target="_rohit"><i class="fab fa-hackerrank fa-4x icon-3d"></i></a>
+                    {{!-- <i class="fa fa-github fa-4x icon-3d"></i> --}}
+                    {{!-- <i class="fa fa-gitlab fa-4x icon-3d"></i>
+                    <i class="fa fa-bitbucket fa-4x icon-3d"></i>
+                    <i class="fa fa-git fa-4x icon-3d"></i> --}}
+                </div>
+
+                <div class="flex-center">
+                    <i class="fa fa-twitter fa-4x icon-3d"></i>
+                    <i class="fa fa-envelope fa-4x icon-3d"></i>
+                    <i class="fa fa-facebook fa-4x icon-3d"></i>
+                    <i class="fa fa-instagram fa-4x icon-3d"></i>
+                    <i class="fa fa-whatsapp fa-4x icon-3d"></i>
+                </div>
+
+                    </div>
+                
+                    <!-- right side div  -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer code  -->
+    {{>footer}}
+
+    {{>footerlinks}}
+</body>
+
+</html>
